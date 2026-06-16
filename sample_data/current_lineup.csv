@@ -1,0 +1,23 @@
+driver_id,team_id,grid_position,recent_form,team_recent_form
+ANT,Mercedes,1,1,2
+HAM,Ferrari,2,2,3
+RUS,Mercedes,3,3,2
+LEC,Ferrari,4,4,3
+NOR,McLaren,5,5,5.5
+PIA,McLaren,6,6,5.5
+VER,Red Bull Racing,7,7,8
+GAS,Alpine,8,8,10
+HAD,Red Bull Racing,9,9,8
+LAW,Racing Bulls,10,10,11.5
+BEA,Haas,11,11,13.5
+COL,Alpine,12,12,10
+LIN,Racing Bulls,13,13,11.5
+SAI,Williams,14,14,14.5
+ALB,Williams,15,15,14.5
+OCO,Haas,16,16,13.5
+BOR,Audi,17,17,18
+ALO,Aston Martin,18,18,20
+HUL,Audi,19,19,18
+BOT,Cadillac,20,20,20.5
+PER,Cadillac,21,21,20.5
+STR,Aston Martin,22,22,20

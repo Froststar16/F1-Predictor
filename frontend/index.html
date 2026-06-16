@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>F1 Race Predictor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏁 F1 Race Predictor</h1>
+    <div class="controls">
+      <select id="circuitSelect"></select>
+      <button id="predictBtn">Predict</button>
+    </div>
+    <div id="circuitName" class="circuit-name"></div>
+    <div class="track-diagram-wrap">
+      <img id="trackDiagram" class="track-diagram" alt="" />
+      <div id="trackDiagramFallback" class="track-diagram-fallback" style="display:none;">No diagram yet for this circuit</div>
+    </div>
+    <table id="resultsTable">
+      <thead>
+        <tr>
+          <th>Driver</th>
+          <th>Team</th>
+          <th>Predicted Pos</th>
+          <th>Podium Probability</th>
+          <th>Win Probability</th>
+          <th>Points Probability</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

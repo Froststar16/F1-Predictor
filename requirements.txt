@@ -1,0 +1,9 @@
+pandas
+numpy
+lightgbm
+scikit-learn
+pyyaml
+joblib
+fastapi
+uvicorn
+fastf1

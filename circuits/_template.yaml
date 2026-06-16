@@ -1,0 +1,30 @@
+# Copy this file, rename it to the circuit's id (e.g. silverstone.yaml),
+# and fill in every field. This is the ONLY file you need to touch
+# to add a new circuit to the predictor — nothing else in the codebase
+# needs to change.
+
+name: "Template Circuit"          # Display name
+length_km: 5.0                    # Lap length in km
+laps: 60                          # Race distance in laps
+corners: 15                       # Number of corners
+drs_zones: 2                      # Number of DRS zones
+
+# 0 (easy to pass) - 10 (Monaco-level near impossible), based on
+# historical overtakes-per-race at this circuit
+overtaking_difficulty: 5.0
+
+# How hard tyres are worked here: "low" | "medium" | "high"
+tyre_deg_severity: "medium"
+
+# Historical probability a safety car / VSC appears during the race (0-1)
+safety_car_prob: 0.30
+
+altitude_m: 0
+avg_temp_c: 22
+rain_prob: 0.20                   # Historical probability of rain on race day (0-1)
+
+pit_loss_sec: 22                  # Approx time lost in the pit lane during a stop
+
+# Of past races at this circuit, fraction won by the pole-sitter (0-1).
+# Higher = qualifying matters more here, overtaking matters less.
+pole_to_win_rate: 0.40

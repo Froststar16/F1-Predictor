@@ -1,0 +1,13 @@
+name: "Spa-Francorchamps"
+length_km: 7.004
+laps: 44
+corners: 19
+drs_zones: 2
+overtaking_difficulty: 3.5
+tyre_deg_severity: "medium"
+safety_car_prob: 0.45
+altitude_m: 400
+avg_temp_c: 18
+rain_prob: 0.45
+pit_loss_sec: 24
+pole_to_win_rate: 0.32

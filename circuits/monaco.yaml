@@ -1,0 +1,13 @@
+name: "Monaco"
+length_km: 3.337
+laps: 78
+corners: 19
+drs_zones: 1
+overtaking_difficulty: 9.5
+tyre_deg_severity: "low"
+safety_car_prob: 0.65
+altitude_m: 0
+avg_temp_c: 22
+rain_prob: 0.15
+pit_loss_sec: 20
+pole_to_win_rate: 0.45

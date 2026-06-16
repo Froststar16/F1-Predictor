@@ -1,0 +1,13 @@
+name: "Monza"
+length_km: 5.793
+laps: 53
+corners: 11
+drs_zones: 3
+overtaking_difficulty: 2.5
+tyre_deg_severity: "low"
+safety_car_prob: 0.25
+altitude_m: 162
+avg_temp_c: 24
+rain_prob: 0.20
+pit_loss_sec: 21
+pole_to_win_rate: 0.30

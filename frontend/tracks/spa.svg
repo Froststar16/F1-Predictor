@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 50,200
+           C 50,170 70,160 90,165
+           C 110,170 115,150 100,130
+           C 85,110 100,90 130,95
+           C 160,100 165,75 145,55
+           C 125,35 145,15 175,20
+           L 280,40
+           C 320,48 345,70 340,100
+           C 336,125 310,130 300,150
+           C 290,170 305,190 330,195
+           C 350,199 350,215 325,220
+           L 110,220
+           C 75,220 50,215 50,200 Z"
+        fill="none" stroke="#e10600" stroke-width="5" stroke-linecap="round" />
+  <line x1="50" y1="190" x2="50" y2="210" stroke="#888" stroke-width="2" stroke-dasharray="3,3" />
+  <text x="200" y="245" text-anchor="middle" fill="#888" font-family="sans-serif" font-size="14">Spa-Francorchamps</text>
+</svg>

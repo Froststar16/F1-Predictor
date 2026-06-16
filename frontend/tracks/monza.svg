@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 40,130
+           L 40,90
+           C 40,60 70,50 110,50
+           L 300,50
+           C 340,50 360,70 355,95
+           C 350,115 330,110 320,125
+           C 310,140 325,150 345,155
+           C 365,160 365,180 345,190
+           L 120,190
+           C 80,190 50,175 45,155
+           C 42,145 40,140 40,130 Z"
+        fill="none" stroke="#e10600" stroke-width="5" stroke-linecap="round" />
+  <line x1="40" y1="100" x2="40" y2="120" stroke="#888" stroke-width="2" stroke-dasharray="3,3" />
+  <text x="200" y="220" text-anchor="middle" fill="#888" font-family="sans-serif" font-size="14">Monza</text>
+</svg>

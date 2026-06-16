@@ -1,0 +1,34 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0d0d0d;
+  color: #eee;
+  margin: 0;
+  padding: 2rem;
+}
+.container { max-width: 800px; margin: 0 auto; }
+h1 { color: #e10600; }
+.controls { display: flex; gap: 0.75rem; margin-bottom: 1.5rem; }
+select, button {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #1a1a1a;
+  color: #eee;
+  font-size: 1rem;
+}
+button { background: #e10600; border: none; cursor: pointer; }
+button:hover { background: #ff1e14; }
+.circuit-name { font-size: 1.2rem; margin-bottom: 1rem; color: #aaa; }
+.track-diagram-wrap { display: flex; justify-content: center; margin-bottom: 1.5rem; min-height: 120px; }
+.track-diagram { max-width: 320px; width: 100%; }
+.track-diagram-fallback { color: #555; font-size: 0.9rem; align-self: center; }
+.team-chip { display: inline-flex; align-items: center; gap: 0.4rem; }
+.team-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 0.6rem; text-align: left; border-bottom: 1px solid #333; }
+th { color: #999; font-weight: 500; font-size: 0.85rem; text-transform: uppercase; }
+tr.podium { background: rgba(225, 6, 0, 0.12); }
+.bar-row { display: flex; align-items: center; gap: 0.5rem; }
+.bar-bg { background: #2a2a2a; border-radius: 4px; width: 90px; height: 8px; overflow: hidden; }
+.bar { background: #e10600; height: 8px; }
+.error { color: #ff6b6b; margin-top: 1rem; }
